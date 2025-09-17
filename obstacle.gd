@@ -1,7 +1,4 @@
 extends Area2D
-@export var damage_per_tick := 10
-@export var tick_seconds := 0.5
-var _accum := 0.0
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
