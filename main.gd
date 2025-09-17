@@ -7,8 +7,6 @@ var score := 0
 @onready var pause: Control = $UI/pause
 @onready var overviewlabel: Label = $UI/pause/overview
 
-#@onready var state_label: Label = $UI/PausePanel/StateLabel
-
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	add_to_group("game")  # so Candy/Goo can call us
