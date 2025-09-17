@@ -36,7 +36,6 @@ func _process(delta: float) -> void:
 	if velocity.x != 0:
 		spr.animation = "walk"
 		spr.flip_v = false
-		# See the note below about the following boolean assignment.
 		spr.flip_h = velocity.x < 0
 	elif velocity.y != 0:
 		spr.animation = "jump"
