@@ -9,7 +9,7 @@ var score := 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	add_to_group("game")  # so Candy/Goo can call us
+	add_to_group("game")
 	pause.visible = false
 	_update_ui()
 
